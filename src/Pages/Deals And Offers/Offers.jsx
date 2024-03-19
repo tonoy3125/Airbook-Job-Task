@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { MdVerified } from 'react-icons/md';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
