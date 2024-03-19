@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div className="">
-            <div className="navbar  container mx-auto mt-2 mb-2">
+            <div className="navbar  max-w-6xl mx-auto mt-2 mb-2">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -99,7 +99,7 @@ const Navbar = () => {
                 {/* User login and logout toggle */}
 
                 <div className="navbar-end flex items-center gap-5 font-poppins">
-                    <button className='sm:text-xl text-white font-medium bg-blue-600 px-2 sm:px-5 py-2 rounded-md'>Sign In</button>
+                    <button className='sm:text-xl text-white font-medium bg-blue-600 px-2 md:px-5 py-2 rounded-md'>Sign In</button>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 const BannerComponent = () => {
     return (
         <div className="border bg-[#FFFFFF] rounded-md font-poppins p-14">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center flex-col md:flex-row justify-between gap-5 md:gap-0">
                 <div className="flex items-center gap-[10px]">
                     <button className="bg-[#EBF0F5] flex items-center gap-2 font-medium px-3 py-2 rounded">
                         <input type="radio" name="radio-1" className="radio w-4 h-4" />
@@ -26,7 +26,7 @@ const BannerComponent = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex items-center gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:items-center gap-5">
                 <div className="mt-5 border flex items-center px-10 py-2 rounded-lg ">
                     <h1 className="text-[#1E1E1E] text-sm font-semibold border-r border-r-[#09182E]  pr-3">DAC</h1>
                     <div className="pl-3">
