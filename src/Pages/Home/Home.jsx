@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Offers from "../Deals And Offers/Offers";
 import Destinations from "../Destinations/Destinations";
 import Newsletter from "../NewsLetter/NewsLetter";
+import TravelBlog from "../TravelBlog/TravelBlog";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Destinations />
             <Offers />
             <Airlines />
+            <TravelBlog />
             <Newsletter />
         </div>
     );
