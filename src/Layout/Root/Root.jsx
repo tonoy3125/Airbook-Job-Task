@@ -5,7 +5,7 @@ import Footer from "../../Pages/Shared/Footer/Footer";
 
 const Root = () => {
     return (
-        <div>
+        <div className="bg-gray-100">
             
             <Outlet />
             <Footer />

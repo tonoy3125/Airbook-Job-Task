@@ -5,7 +5,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <div className="bg-[#006CE4]">
+        <div className="bg-[#006CE4] font-poppins">
             <footer className="footer py-10 max-w-6xl mx-auto text-white">
                 <aside>
                     <h2>Address</h2>
